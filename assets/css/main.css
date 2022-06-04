@@ -55,6 +55,10 @@ h2.header {
 	margin-bottom: 0;
 }
 
+.description-small {
+	margin-bottom: 3.7em;
+}
+
 .project-links {
 	display: flex;
 	justify-content: space-around;
