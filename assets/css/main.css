@@ -2,6 +2,34 @@
 @import url("https://fonts.googleapis.com/css?family=Raleway:200,700|Source+Sans+Pro:300,600,300italic,600italic");
 
 /* Custom */
+@media screen and (max-width: 737px) {
+	.project-links {
+		flex-direction: column;
+		align-items: center;
+		margin-bottom: 12px;
+	}
+	.project-links a {
+		margin-bottom: 9px;
+	}
+}
+
+@media screen and (max-width: 481px) {
+	.project-links {
+		display: flex;
+		flex-direction: row;
+		justify-content: space-around;
+		margin-bottom: 12px;
+	}
+	
+	.project-links a {
+		border-bottom: 0;
+	}
+
+	.project-links button {
+		padding: 0px 15px;
+	}
+}
+
 h2.header {
 	text-align: center;
 	border-bottom: solid 2px rgba(255, 255, 255, 0.125);
@@ -23,8 +51,24 @@ h2.header {
 	font-weight: 600;
 }
 
-.attributions {
-	display: none;
+.subheader {
+	margin-bottom: 0;
+}
+
+.project-links {
+	display: flex;
+	justify-content: space-around;
+	margin-bottom: 12px;
+}
+
+.project-links a {
+	border-bottom: 0;
+}
+
+.attributions a {
+	display: block;
+	text-decoration: underline;
+	border-bottom: 0;
 }
 
 /*
@@ -4039,6 +4083,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		justify-content: center;
 		-moz-flex-direction: row;
 		-webkit-flex-direction: row;
 		-ms-flex-direction: row;
