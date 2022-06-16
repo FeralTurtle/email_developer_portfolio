@@ -75,6 +75,10 @@ h2.header {
 	border-bottom: 0;
 }
 
+.features article .image img {
+	height: 625px;
+}
+
 /*
 	Solid State by HTML5 UP
 	html5up.net | @ajlkn
